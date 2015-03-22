@@ -19,7 +19,7 @@ inv <- NULL
 
 
 ## Write a short comment describing this function
-## Function that saves our inversed matrix
+## Function that prints our inversed matrix, it first checks to see if the inversed matrix has already been calculated.
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         inv <- x$getinv()
